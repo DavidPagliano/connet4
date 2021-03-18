@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/resets/reset.css">
+        <link rel="stylesheet" href="./css/body.css">
+        <link rel="stylesheet" href="./css/game.css">
+        <script type="text/javascript" src="js/timer.js"></script>
+        <script type="text/javascript" src="js/game.js"></script>
+
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="container-players">
+            <div class="wrapper">
+                <div class="game">
+                    <div class="header">
+                        <div id="currentturn"></div>
+                        <span id="timer">00:00</span>
+                        <button onclick="saveGame()">Save game</button>
+                    </div>
+
+                    <div class="board">
+                        <canvas id="board" class="canvas" width="300" height="150" style="border:1px solid #d3d3d3;">
+                            Tu navegador no soporta HTML5.</canvas>
+                    </div>
+                    <div class="ribbon"></div>
+                    <div class="players"></div>
+                </div>
+                <div class="footer">
+                    <button class="fb">&#x1f44d; Like</button>
+                    <button class="embed">Embed</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

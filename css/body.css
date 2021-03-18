@@ -1,0 +1,19 @@
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    height: 100%;
+    width: 100vh;
+    background: transparent url("../images/nuevoFondo.png") center no-repeat;
+    background-size: cover;
+}
+
+
